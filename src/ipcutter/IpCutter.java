@@ -18,6 +18,9 @@ public class IpCutter {
         String commandLine = "163.121.12.30";
         Ip_cutter cutter = new Ip_cutter(commandLine);
         cutter.doOperation();
+        String s3 = Integer.toHexString(254);
+        System.out.println("254 is " + s3);
+        
     }
     
 }
